@@ -12,7 +12,7 @@ public:
 	void setType(const std::string &type);
 
 private:
-	std::string _type;
+	std::string type;
 };
 
 #endif
