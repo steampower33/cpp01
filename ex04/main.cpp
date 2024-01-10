@@ -41,7 +41,7 @@ int main(int argc, char **argv)
 		return 1;
 	}
 	file.append(".replace");
-	outFile.open(file);
+	outFile.open(file.c_str());
 	if (outFile.fail())
 	{
 		std::cout << "Error : outFile does not open" << std::endl;
