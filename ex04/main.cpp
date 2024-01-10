@@ -34,7 +34,7 @@ int main(int argc, char **argv)
 		std::cout << "Error : file length is 0" << std::endl;
 		return 1;
 	}
-	inFile.open(file);
+	inFile.open(file.c_str());
 	if (inFile.fail())
 	{
 		std::cout << "Error : inFile does not open" << std::endl;
